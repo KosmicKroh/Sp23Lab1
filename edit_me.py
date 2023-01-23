@@ -1,12 +1,12 @@
-
+# Linear Search for Max in List - Author: Justin Kroh
 def FindMax(lst):
     """return the maximum element"""
 
     current_max = lst[0]
 
-    #
-    #  YOUR CODE GOES HERE
-    #
+    for i in range(len(lst)-1):
+        if (lst[i+1]>current_max):
+            current_max = lst[i+1]
 
     return current_max
 
