@@ -1,4 +1,5 @@
 # Linear Search for Max in List - Author: Justin Kroh
+# I am adding a comment now! Let's see what happens.
 def FindMax(lst):
     """return the maximum element"""
 
